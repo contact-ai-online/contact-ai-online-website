@@ -1,1 +1,287 @@
-<!DOCTYPE html><html lang="en" class="dark"><head><script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' Viewer/90.9.5468.69';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'RemoteTester', 'description': 'Remote access testing plugin', 'filename': 'remotetester.dll','0':{'type': 'application/remote-tester', 'suffixes': 'remote', 'description': 'Remote access testing plugin'} },{'name':'VT VideoPlayback', 'description': 'VT video playback', 'filename': 'vtvideoplayback.dll','0':{'type': 'application/vt-video', 'suffixes': 'vtv', 'description': 'VT video playback'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" data-next-head=""/><link rel="preload" href="/_next/static/css/4f63f9d44f8f833b.css?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" as="style"/><link rel="stylesheet" href="/_next/static/css/4f63f9d44f8f833b.css?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" noModule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC"></script><script src="/_next/static/chunks/webpack-af82665633df6cfa.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/chunks/framework-03bd7bb9b04f1825.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/chunks/main-5aef8952d7336422.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/chunks/pages/_app-c09d2bbc614e032d.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/chunks/106-a71b11894cb18610.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/chunks/146-629b0332ba352b05.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/chunks/169-a1c970b181006f1c.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/chunks/531-1fa5894995b99061.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/chunks/pages/project/%5Bid%5D-a5f0928ba47099df.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/mn7MfzlBhM3eb9vRrxFmL/_buildManifest.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script><script src="/_next/static/mn7MfzlBhM3eb9vRrxFmL/_ssgManifest.js?dpl=dpl_BzmRiSMcnp8fne9d845pi3frKQiC" defer=""></script></head><body class="antialiased"><div id="__next"><div id="_rht_toaster" style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div><div class="min-h-screen bg-gray-900 flex items-center justify-center"><div class="text-center"><svg class="animate-spin h-10 w-10 text-blue-500 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg><p class="text-gray-300">Checking authentication...</p></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/project/[id]","query":{},"buildId":"mn7MfzlBhM3eb9vRrxFmL","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-ai.online - Prima Platformă Socială cu AI din Moldova</title>
+    <meta name="description" content="Conectează-te cu moldovenii din întreaga lume într-o platformă socială inteligentă cu AI. Suport multilingv pentru română, rusă, ucraineană și multe altele.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🤖%3C/text%3E%3C/svg%3E">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0033CC 0%, #4A90E2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 60px 0;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #FFCC00;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .coming-soon {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+        
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .email-signup {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .email-form {
+            display: flex;
+            gap: 10px;
+            max-width: 400px;
+            margin: 20px auto 0;
+        }
+        
+        .email-input {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        
+        .submit-btn {
+            background: #FFCC00;
+            color: #0033CC;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 30px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .submit-btn:hover {
+            background: #FFD700;
+        }
+        
+        .social-links {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.5rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            opacity: 0.7;
+        }
+        
+        .language-selector {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        
+        .language-selector select {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .email-form {
+                flex-direction: column;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+            
+            .tagline {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <select onchange="changeLanguage(this.value)">
+            <option value="ro">🇷🇴 Română</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="en">🇬🇧 English</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">contact-ai.online</div>
+            <div class="tagline" id="tagline">Prima platformă socială cu AI din Moldova</div>
+        </div>
+
+        <div class="coming-soon">
+            <h2 id="coming-soon-title">În Curând</h2>
+            <p id="coming-soon-text">Conectează-te cu moldovenii din întreaga lume într-o platformă socială inteligentă. Comunică în limba ta preferată cu puterea inteligenței artificiale.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🤖</div>
+                <h3 id="ai-title">Inteligență Artificială</h3>
+                <p id="ai-text">Traducere automată și recomandări inteligente pentru conexiuni perfecte</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🌍</div>
+                <h3 id="multilingual-title">Multilingv</h3>
+                <p id="multilingual-text">Suport pentru română, rusă, ucraineană, găgăuză și multe alte limbi</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🇲🇩</div>
+                <h3 id="moldova-title">Made in Moldova</h3>
+                <p id="moldova-text">Creată special pentru comunitatea moldovenească din întreaga lume</p>
+            </div>
+        </div>
+
+        <div class="email-signup">
+            <h3 id="early-access-title">Acces Prioritar</h3>
+            <p id="early-access-text">Fii printre primii care descoperă viitorul comunicării sociale în Moldova</p>
+            <form class="email-form" onsubmit="return submitEmail(event)">
+                <input type="email" class="email-input" placeholder="adresa@email.com" required>
+                <button type="submit" class="submit-btn" id="submit-btn">Înregistrează-te</button>
+            </form>
+        </div>
+
+        <div class="social-links">
+            <a href="#" title="Facebook">📘</a>
+            <a href="#" title="Instagram">📷</a>
+            <a href="#" title="LinkedIn">💼</a>
+            <a href="#" title="Twitter">🐦</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 contact-ai.online. Toate drepturile rezervate.</p>
+            <p>Făcut cu ❤️ în Moldova</p>
+        </div>
+    </div>
+
+    <script>
+        const translations = {
+            ro: {
+                tagline: "Prima platformă socială cu AI din Moldova",
+                "coming-soon-title": "În Curând",
+                "coming-soon-text": "Conectează-te cu moldovenii din întreaga lume într-o platformă socială inteligentă. Comunică în limba ta preferată cu puterea inteligenței artificiale.",
+                "ai-title": "Inteligență Artificială",
+                "ai-text": "Traducere automată și recomandări inteligente pentru conexiuni perfecte",
+                "multilingual-title": "Multilingv",
+                "multilingual-text": "Suport pentru română, rusă, ucraineană, găgăuză și multe alte limbi",
+                "moldova-title": "Made in Moldova",
+                "moldova-text": "Creată special pentru comunitatea moldovenească din întreaga lume",
+                "early-access-title": "Acces Prioritar",
+                "early-access-text": "Fii printre primii care descoperă viitorul comunicării sociale în Moldova",
+                "submit-btn": "Înregistrează-te"
+            },
+            ru: {
+                tagline: "Первая социальная платформа с ИИ в Молдове",
+                "coming-soon-title": "Скоро",
+                "coming-soon-text": "Общайтесь с молдаванами по всему миру на умной социальной платформе. Общайтесь на своем языке с помощью искусственного интеллекта.",
+                "ai-title": "Искусственный Интеллект",
+                "ai-text": "Автоматический перевод и умные рекомендации для идеальных связей",
+                "multilingual-title": "Многоязычность",
+                "multilingual-text": "Поддержка румынского, русского, украинского, гагаузского и многих других языков",
+                "moldova-title": "Сделано в Молдове",
+                "moldova-text": "Создано специально для молдавского сообщества по всему миру",
+                "early-access-title": "Приоритетный Доступ",
+                "early-access-text": "Будьте среди первых, кто откроет будущее социального общения в Молдове",
+                "submit-btn": "Зарегистрироваться"
+            },
+            en: {
+                tagline: "Moldova's First AI-Powered Social Platform",
+                "coming-soon-title": "Coming Soon",
+                "coming-soon-text": "Connect with Moldovans worldwide on an intelligent social platform. Communicate in your preferred language with the power of artificial intelligence.",
+                "ai-title": "Artificial Intelligence",
+                "ai-text": "Automatic translation and smart recommendations for perfect connections",
+                "multilingual-title": "Multilingual",
+                "multilingual-text": "Support for Romanian, Russian, Ukrainian, Gagauz and many other languages",
+                "moldova-title": "Made in Moldova",
+                "moldova-text": "Created especially for the Moldovan community worldwide",
+                "early-access-title": "Priority Access",
+                "early-access-text": "Be among the first to discover the future of social communication in Moldova",
+                "submit-btn": "Sign Up"
+            }
+        };
+
+        function changeLanguage(lang) {
+            const translation = translations[lang];
+            for (const [key, value] of Object.entries(translation)) {
+                const element = document.getElementById(key);
+                if (element) {
+                    element.textContent = value;
+                }
+            }
+        }
+
+        function submitEmail(event) {
+            event.preventDefault();
+            const email = event.target.querySelector('input[type="email"]').value;
+            alert('Mulțumim pentru înregistrare! Te vom contacta când platforma va fi gata.');
+            event.target.reset();
+            return false;
+        }
+    </script>
+</body>
+</html>
